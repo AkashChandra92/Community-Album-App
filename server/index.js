@@ -7,15 +7,15 @@ const bodyParser = require("body-parser")
 const authRouter = require("./auth/router")
 const userRouter = require("./user/router")
 
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 4000
 
 const app = express();
 const corsMiddleware = cors()
 const parserMiddleware = bodyParser.json()
 
 app.use(parserMiddleware)
-app.use(imageRouter)
 app.use(corsMiddleware)
+app.use(imageRouter)
 app.use(authRouter)
 app.use(userRouter)
 
