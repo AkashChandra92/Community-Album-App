@@ -49,3 +49,10 @@ router.get('/secret-endpoint', auth, (req, res) => {
   })
 })
 module.exports = router;
+
+// router.post(
+//   '/image',
+//   auth,
+//   (request, response, next) => {
+//     ...
+//   }

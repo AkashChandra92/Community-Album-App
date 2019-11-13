@@ -1,6 +1,8 @@
+// import superagent from 'superagent'
 import request from 'superagent'
 
 export const ALL_IMAGES = 'ALL_IMAGES'
+export const JWT = 'JWT'
 
 const baseUrl = 'http://localhost:4000'
 
@@ -45,4 +47,26 @@ export const createImage = data => dispatch => {
       dispatch(action)
     })
     .catch(console.error)
+}
+ function jwt(payload){
+   return {
+     type: JWT,
+     payload
+   }
+ }
+
+export const login =( email, password) => dispatch =>{
+  console.log('login action')
+  request
+    .post(`${baseUrl}/login` )
+    .send({email, password})
+    .set('accept', 'json')
+    .end((err, res) => {if (res.body) {
+      const action = jwt(res.body);
+      return dispatch(action);
+  } else {    
+      console.log(err)
+  }
+    })
+    // .catch(console.error)
 }
