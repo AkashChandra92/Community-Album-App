@@ -5,7 +5,6 @@ The app has a database in the backend and for the front end uses React+Redux JS.
 1. [Features](#features)
 2. [Used techniques](#used-techniques)
 3. [Learning goals](#learning-goals)
-4. [Screen captures](#screen-captures)
 
 <a name="features"></a>
 ## Features
@@ -19,9 +18,9 @@ The app has a database in the backend and for the front end uses React+Redux JS.
 - React
 - Redux
 - [Dog API](https://dog.ceo/dog-api/documentation/)
--PostGreSQL
--Docker
--Sequelize
+- PostGreSQL
+- Docker
+- Sequelize
 
 <a name="learning-goals"></a>
 ## Learning goals
