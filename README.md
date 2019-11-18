@@ -1,4 +1,4 @@
-# Imageboard - Full stack application
+# Community Album App - Full stack application
 The app has a database in the backend and for the front end uses React+Redux JS. The app needs a user to login and then they can view all the images in the database. To add images, a user needs to login.
 
 # Table of Contents
