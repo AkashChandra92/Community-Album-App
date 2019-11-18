@@ -1,17 +1,26 @@
 # Community Album App - Full stack application
 The app has a database in the backend and for the front end uses React+Redux JS. The app needs a user to login and then they can view all the images in the database. To add images, a user needs to login.
 
+## Setup
+
+Download the files in a directory using git clone and copying the link from github. Then navigate to the right directory and type npm install in the console, both for client and server. Then follow the steps below.
+
+Client : Once dependencies are installed, start the application by typing npm run start in the console.
+
+Server : Before starting the server, we need to make a container to connect to our PostgreSQL database. First, make a docker container running on port 5432, followed by running the server with node/nodemon index.js. 
+
 # Table of Contents
 1. [Features](#features)
 2. [Used techniques](#used-techniques)
 3. [Learning goals](#learning-goals)
+4. [Screen captures](#screen-captures)
 
 <a name="features"></a>
 ## Features
-- The app has a basic layout of login and posting images.
-- To enter a user, the post request has to be made via the backed using the terminal. 
-- The login works as expected and a user can only post pictures after logging in.
-- All images are viewable even if a user has not logged in.
+- The app has a homepage with a welcome page with a signup, login and images button. 
+- A user can view images without logging in but to upload an image, they need to login.
+- Existing users can login and upload pics otherwise users need to signup. 
+- If a non logged in user clicks on the upload image button, they are redirected to the login page.
 
 <a name="used-techniques"></a>
 ## Used techniques
@@ -21,6 +30,7 @@ The app has a database in the backend and for the front end uses React+Redux JS.
 - PostGreSQL
 - Docker
 - Sequelize
+- Dbeaver for database(Ubuntu)
 
 <a name="learning-goals"></a>
 ## Learning goals
@@ -29,3 +39,7 @@ The app has a database in the backend and for the front end uses React+Redux JS.
 - Using JWT as authorization and implementing it across multiple routers
 - Synchronize backend with the frontend for working of the app
 
+<a name="screen-captures"></a>
+## Screen captures
+### Homepage, Doglist and game
+![List](docs/images/dogApp.gif)
