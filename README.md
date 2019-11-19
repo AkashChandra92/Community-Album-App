@@ -42,6 +42,10 @@ Server : Before starting the server, we need to make a container to connect to o
 <a name="screen-captures"></a>
 ## Screen captures
 
-![communityAlbumApp](https://user-images.githubusercontent.com/54192886/69140260-7456cc00-0ac2-11ea-9812-325158f431a7.gif)
-
 ![home](https://user-images.githubusercontent.com/54192886/69140673-458d2580-0ac3-11ea-821e-9ae0e6824116.png)
+![list1](https://user-images.githubusercontent.com/54192886/69140732-66557b00-0ac3-11ea-88e0-97497d400556.png)
+![list2](https://user-images.githubusercontent.com/54192886/69140736-681f3e80-0ac3-11ea-998d-677e2ea18beb.png)
+![login](https://user-images.githubusercontent.com/54192886/69140740-69e90200-0ac3-11ea-8583-44fcd850f599.png)
+![postImage](https://user-images.githubusercontent.com/54192886/69140747-6c4b5c00-0ac3-11ea-971a-53a536b80f30.png)
+![signup](https://user-images.githubusercontent.com/54192886/69140755-70777980-0ac3-11ea-8289-49ab9e92d66a.png)
+
