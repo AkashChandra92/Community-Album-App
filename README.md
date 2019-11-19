@@ -41,5 +41,6 @@ Server : Before starting the server, we need to make a container to connect to o
 
 <a name="screen-captures"></a>
 ## Screen captures
-### Homepage, Doglist and game
-![List](docs/images/dogApp.gif)
+
+![communityAlbumApp](https://user-images.githubusercontent.com/54192886/69140260-7456cc00-0ac2-11ea-9812-325158f431a7.gif)
+
