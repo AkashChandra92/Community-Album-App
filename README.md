@@ -44,3 +44,4 @@ Server : Before starting the server, we need to make a container to connect to o
 
 ![communityAlbumApp](https://user-images.githubusercontent.com/54192886/69140260-7456cc00-0ac2-11ea-9812-325158f431a7.gif)
 
+![home](https://user-images.githubusercontent.com/54192886/69140673-458d2580-0ac3-11ea-821e-9ae0e6824116.png)
